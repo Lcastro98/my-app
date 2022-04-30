@@ -1,10 +1,10 @@
-import Contador from './components/Contador'
+import EjemploUno from './components/EjemploUno';
+//import FormHook from './components/FormHook';
 
 function App() {
   return (
-    <div>
-      <h1>Hola mundo React</h1>
-      <Contador />
+    <div className='container mt-5'>
+      <EjemploUno />
     </div>
   );
 }
